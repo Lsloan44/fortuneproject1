@@ -1,0 +1,39 @@
+package com.company;
+
+import java.util.Random;
+import java.util.Scanner;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        var filename = "fortune.txt";
+        String all_names = Files.readString(Paths.get(fileName));
+        String[] name_list = all_names.split("\n");
+            for (String name : name_list) {
+                Random rand = new Random();
+                int randomit = rand.nextInt(20);
+        }
+
+
+        var tempint = 0;
+        while(tempint< result){
+            System.out.println(tempint);
+            tempint++;
+
+
+            var reader = new Scanner(System.in);
+        System.out.print("How many fortunes would you like? Pick one through twenty");
+        var number = reader.nextInt();
+        int result = number;
+        System.out.println(result);
+
+        }
+
+
+    }
+
+}
+
